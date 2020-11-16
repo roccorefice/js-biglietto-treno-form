@@ -14,15 +14,15 @@
       <div class="row d-flex space_around">
         <div class="col">
           <label for="name">Nome Cognome</label>
-          <input type="text" class="name">
+          <input type="text" id="name" placeholder="inserisci il tuo nome">
         </div>
         <div class="col">
           <label for="km">Km da percorrere</label>
-          <input type="number" class="km">
+          <input type="number" id="km" placeholder="inserisci i km">
         </div>
         <div class="col">
           <label for="range_eta">Fascia d'età</label>
-          <select name="range_eta" class="range_eta">
+          <select name="range_eta" id="range_eta">
             <option value="minorenne">Minorenne</option>
             <option value="maggiorenne">Maggiorenne</option>
             <option value="over65">Over 65</option>
@@ -30,8 +30,8 @@
         </div>
       </div>
       <div class="row buttons">
-        <button type="button" name="button" class="genera">Genera</button>
-        <button type="button" name="button" class="annulla">Annulla</button>
+        <button id="genera">Genera</button>
+        <button id="annulla">Annulla</button>
       </div>
     </div>
   </section>
@@ -62,17 +62,14 @@
               <td id="codiceCP"></td>
               <td id="costo"></td>
             </tr>
-
           </table>
-
-
         </div>
-
       </div>
-
     </div>
-
   </section>
+  <script src="./assets/js/main.js" charset="utf-8">
+
+  </script>
 
 
 </body>
